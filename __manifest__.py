@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Cats",
-    'summary': 'Module Odoo untuk menyimpan data kucing.',
-    'description': 'Module Odoo untuk menyimpan dan menampilkan data kucing yang ada pada WillyWangky’s Pet Shop.',
+    'name': "Prism",
+    'summary': 'Sistem informasi untuk mengelola volunteer Chempro dalam verifikasi jawaban soal',
+    'description': 'Sistem informasi untuk mengelola volunteer Chempro dalam verifikasi jawaban soal',
     'sequence': -100,
-    'author': "Thomas The Tank Engine",
-    'category': 'Uncategorized',
+    'author': "Tim CintaSI",
+    'category': 'Human Resources',
     'version': '1.0',
     'depends': ['base'],
     'data': [
