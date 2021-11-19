@@ -2,17 +2,18 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': 'Skills Management',
+    'name': 'Prism - Chempro Skills Management',
     'category': 'Human Resources/Employees',
     'sequence': 270,
     'version': '1.0',
+    'author': "Tim CintaSI",
     'summary': 'Manage skills, knowledge and resumé of your employees',
     'description':
         """
-Skills and Resumé for HR
+Achievements and Contributions for HR
 ========================
 
-This module introduces skills and resumé management for employees.
+This module introduces achievement and contribution management for Chempro employees.
         """,
     'depends': ['hr'],
     'data': [
@@ -40,5 +41,5 @@ This module introduces skills and resumé management for employees.
             'hr_skills/static/src/xml/**/*',
         ],
     },
-    'license': 'LGPL-3',
+    'license': 'Unlicense',
 }
