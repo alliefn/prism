@@ -9,7 +9,7 @@
     'version': '1.0',
     'depends': ['base'],
     'data': [
-        'security/ir.model.access.csv',
+        'security\ir.model.access.csv',
         'views/cats_menus.xml',
         'views/cats_trees.xml',
         'views/cats_forms.xml',
