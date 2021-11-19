@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
 
-  <record model="ir.ui.view" id="cats_cat_form">
-    <field name="name">cats.cat.form</field>
-    <field name="model">cats.cat</field>
+  <record model="ir.ui.view" id="contributors_contrib_form">
+    <field name="name">contributors.contrib.form</field>
+    <field name="model">contributors.contrib</field>
     <field name="priority" eval="1"/>
     <field name="arch" type="xml">
       <form>
@@ -11,30 +11,13 @@
           <group>
             <field name="name"/>
             <field name="nim"/>
+            <field name="tarif"/>
             <field name="contact"/>
             <field name="achievement"/>
             <field name="contribution"/>
-            <field name="color"/>
-            <field name="type"/>
           </group>
         </sheet>
       </form>
     </field>
-  </record>
-
-  <record model="ir.ui.view" id="cats_cat_type_form">
-    <field name="name">cats.cat.type.form</field>
-    <field name="model">cats.cat.type</field>
-    <field name="priority" eval="1"/>
-    <field name="arch" type="xml">
-      <form>
-        <sheet>
-          <group>
-            <field name="name"/>
-          </group>
-        </sheet>
-      </form>
-    </field>
-  </record>
-  
+  </record>  
 </odoo>

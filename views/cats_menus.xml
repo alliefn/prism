@@ -1,34 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-    <record id="action_list_cat" model="ir.actions.act_window">
+    <record id="action_list_contrib" model="ir.actions.act_window">
         <field name="name">Daftar Kontributor</field>
-        <field name="res_model">cats.cat</field>
+        <field name="res_model">contributors.contrib</field>
         <field name="view_mode">tree,form</field>
     </record>
 
-    <!--
-    <record id="action_list_cat_type" model="ir.actions.act_window">
-        <field name="name">Daftar Jenis Kucing</field>
-        <field name="res_model">cats.cat.type</field>
-        <field name="view_mode">tree,form</field>
-    </record>
-    -->
-
-    <menuitem id="cats_root_menu" 
-        name="Cats"
+    <menuitem id="contrib_root_menu" 
+        name="Prism"
         sequence="1"/>
 
-    <menuitem id="cats_cat_menu" 
+    <menuitem id="contributors_contrib_menu" 
         name="Daftar Kontributor"
-        parent="cats_root_menu"
-        action="action_list_cat"
+        parent="contrib_root_menu"
+        action="action_list_contrib"
         sequence="1"/>
-
-    <!--
-    <menuitem id="cats_cat_type_menu" 
-        name="Daftar Jenis Kucing"
-        parent="cats_root_menu"
-        action="action_list_cat_type"
-        sequence="2"/>
-    -->
 </odoo>
