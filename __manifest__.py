@@ -7,10 +7,10 @@
     'sequence': 270,
     'version': '1.0',
     'author': "Tim CintaSI",
-    'summary': 'Manage skills, knowledge and resumé of your employees',
+    'summary': 'Manage achievement and contribution for Chempro volunteers.',
     'description':
         """
-Achievements and Contributions for HR
+Achievements and Contributions for Divisi Soal
 ========================
 
 This module introduces achievement and contribution management for Chempro employees.
