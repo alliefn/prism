@@ -10,6 +10,10 @@
         <sheet>
           <group>
             <field name="name"/>
+            <field name="nim"/>
+            <field name="contact"/>
+            <field name="achievement"/>
+            <field name="contribution"/>
             <field name="color"/>
             <field name="type"/>
           </group>

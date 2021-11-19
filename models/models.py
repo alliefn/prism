@@ -9,6 +9,13 @@ class Cat(models.Model):
 
 
     name = fields.Char(string="Nama", required=True)
+    nim = fields.Char(string="NIM", required=True)
+    tarif = fields.Char(string="Tarif")
+    contact = fields.Char(string="Kontak", required=True)
+    achievement = fields.Char(string="Prestasi")
+    contribution = fields.Char(string="Kontribusi")
+
+    # below are unused
     color = fields.Selection(selection=[
         ('0', 'Merah'), ('1', 'Kuning'), ('2', 'Hijau'), ('3', 'Biru'), ('4', 'Ungu'), 
     ], string="Warna", required=True)
