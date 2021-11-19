@@ -41,5 +41,5 @@ This module introduces achievement and contribution management for Chempro emplo
             'hr_skills/static/src/xml/**/*',
         ],
     },
-    'license': 'Unlicense',
+    'license': 'LGPL-3',
 }
