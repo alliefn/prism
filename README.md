@@ -1,2 +1,2 @@
-# cats_odoo
-Module Odoo contoh untuk menyimpan daftar kucing.
+# prism
+Module Odoo sebagai implementasi dari Sistem Informasi Prism (Dibuat dalam rangka memenuhi tubes IF3141)
