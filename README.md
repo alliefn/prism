@@ -3,4 +3,4 @@ Module Odoo sebagai implementasi dari Sistem Informasi Prism (Dibuat dalam rangk
 
 
 ## How to use this?
-ref. bit.ly/TutorialOdoo
+[Tutorial Odoo](bit.ly/TutorialOdoo)
